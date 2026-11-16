@@ -1,0 +1,36 @@
+﻿Variable,Signification,Type Python,Unité,Exemple,Règle de gestion
+Age,Âge du salarié,int64,Années,41,Valeur positive
+Attrition,Départ du salarié,object,Sans unité / à préciser,Yes,Yes ou No
+BusinessTravel,Fréquence des déplacements professionnels,object,Sans unité / à préciser,Travel_Rarely,"Valeur conforme au domaine observé, à valider"
+DailyRate,Valeur journalière,int64,Sans unité / à préciser,1102,"Valeur conforme au domaine observé, à valider"
+Department,Département,object,Sans unité / à préciser,Sales,Valeur non nulle
+DistanceFromHome,Distance entre domicile et travail,int64,Unité non précisée,1,"Valeur conforme au domaine observé, à valider"
+Education,Niveau d'études,int64,Sans unité / à préciser,2,"Valeur conforme au domaine observé, à valider"
+EducationField,Domaine d'études,object,Sans unité / à préciser,Life Sciences,"Valeur conforme au domaine observé, à valider"
+EmployeeCount,Indicateur de comptage des salariés,int64,Sans unité / à préciser,1,"Valeur conforme au domaine observé, à valider"
+EmployeeNumber,Identifiant du salarié,int64,Sans unité / à préciser,1,Identifiant unique et non nul
+EnvironmentSatisfaction,Satisfaction envers l'environnement de travail,int64,Sans unité / à préciser,2,Valeur entre 1 et 4
+Gender,Genre du salarié,object,Sans unité / à préciser,Female,"Valeur conforme au domaine observé, à valider"
+HourlyRate,Valeur horaire,int64,Sans unité / à préciser,94,"Valeur conforme au domaine observé, à valider"
+JobInvolvement,Niveau d'implication au travail,int64,Sans unité / à préciser,3,Valeur entre 1 et 4
+JobLevel,Niveau hiérarchique,int64,Sans unité / à préciser,2,"Valeur conforme au domaine observé, à valider"
+JobRole,Poste occupé,object,Sans unité / à préciser,Sales Executive,"Valeur conforme au domaine observé, à valider"
+JobSatisfaction,Satisfaction au travail,int64,Sans unité / à préciser,4,Valeur entre 1 et 4
+MaritalStatus,Situation matrimoniale,object,Sans unité / à préciser,Single,"Valeur conforme au domaine observé, à valider"
+MonthlyIncome,Revenu mensuel,int64,Unité monétaire non précisée,5993,Valeur positive
+MonthlyRate,Valeur mensuelle,int64,Sans unité / à préciser,19479,"Valeur conforme au domaine observé, à valider"
+NumCompaniesWorked,Nombre d'entreprises précédemment fréquentées,int64,Nombre,8,"Valeur conforme au domaine observé, à valider"
+Over18,Indicateur de majorité,object,Sans unité / à préciser,Y,"Valeur conforme au domaine observé, à valider"
+OverTime,Heures supplémentaires,object,Sans unité / à préciser,Yes,Yes ou No
+PercentSalaryHike,Pourcentage d'augmentation salariale,int64,%,11,"Valeur conforme au domaine observé, à valider"
+PerformanceRating,Évaluation de la performance,int64,Sans unité / à préciser,3,"Valeur conforme au domaine observé, à valider"
+RelationshipSatisfaction,Satisfaction des relations professionnelles,int64,Sans unité / à préciser,1,Valeur entre 1 et 4
+StandardHours,Nombre d'heures standard,int64,Sans unité / à préciser,80,"Valeur conforme au domaine observé, à valider"
+StockOptionLevel,Niveau d'options sur actions,int64,Sans unité / à préciser,0,"Valeur conforme au domaine observé, à valider"
+TotalWorkingYears,Nombre total d'années travaillées,int64,Années,8,Valeur positive ou nulle
+TrainingTimesLastYear,Nombre de formations suivies l'année précédente,int64,Nombre,0,"Valeur conforme au domaine observé, à valider"
+WorkLifeBalance,Équilibre entre vie professionnelle et personnelle,int64,Sans unité / à préciser,1,Valeur entre 1 et 4
+YearsAtCompany,Ancienneté dans l'entreprise,int64,Années,6,Valeur positive ou nulle
+YearsInCurrentRole,Ancienneté dans le poste actuel,int64,Années,4,Valeur positive ou nulle
+YearsSinceLastPromotion,Années depuis la dernière promotion,int64,Années,0,Valeur positive ou nulle
+YearsWithCurrManager,Années avec le responsable actuel,int64,Années,5,Valeur positive ou nulle
