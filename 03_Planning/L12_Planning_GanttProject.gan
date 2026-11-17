@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Analyse des départs des salariés" company="" webLink="http://" view-date="2026-10-19" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.3.3323" locale="fr_FR">
+    <description><![CDATA[Projet Atelier BI — Master 2 Business Analytics]]></description>
+    <view zooming-state="default:6" id="gantt-chart">
+        <field id="tpd3" name="Nom" width="200" order="0"/>
+        <field id="tpd4" name="Date de début" width="75" order="1"/>
+        <field id="tpd5" name="Date de fin" width="75" order="2"/>
+        <field id="tpd15" name="Notes" width="20" order="3"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nom" width="210" order="0"/>
+        <field id="1" name="Rôle par défaut" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" uid="380cc3b31ab1461794aff2e0d29b2747" name="Business Understanding" meeting="false" start="2026-11-06" duration="5" complete="0" expand="true">
+            <depend id="1" type="2" difference="0" hardness="Strong"/>
+            <depend id="9" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="15" uid="073a213f01f44b519bb7744704107dbb" name="Sprint 0 - Cadrage du projet" meeting="false" start="2026-11-06" duration="5" complete="0" expand="true"/>
+        <task id="9" uid="3423f03d54fd42adb645b2aab302adf9" name="J1 — Validation du cadrage" meeting="true" start="2026-11-13" duration="0" complete="0" expand="true"/>
+        <task id="1" uid="454e362450184932be8b203e94cb4fdc" name="Data Understanding" meeting="false" start="2026-11-13" duration="5" complete="0" expand="true">
+            <depend id="2" type="2" difference="0" hardness="Strong"/>
+            <depend id="10" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="16" uid="de868a0cf3784d2b98b62e045d422cce" name="Sprint 1 - Compréhension des données et organisation" meeting="false" start="2026-11-13" duration="6" complete="0" expand="true"/>
+        <task id="10" uid="782c5c427825495ba9533774d47144c4" name="J2 — Validation de l'exploration des données" meeting="true" start="2026-11-20" duration="0" complete="0" expand="true"/>
+        <task id="2" uid="78d0e5d0a49b4ade9f808cf8e8dc6606" name="Data preparation" meeting="false" start="2026-11-20" duration="7" complete="0" expand="true">
+            <depend id="3" type="2" difference="0" hardness="Strong"/>
+            <depend id="11" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="17" uid="eb98a957e1d54dc2a8c3c678c16f5848" name="Sprint 2 - Préparation des données" meeting="false" start="2026-11-23" duration="8" complete="0" expand="true"/>
+        <task id="11" uid="15e6efcc708e493388e4647cace227d3" name="J3 — Données préparées" meeting="true" start="2026-12-01" duration="0" complete="0" expand="true"/>
+        <task id="3" uid="45100cb2a86b43b7a058106e95386208" name="Modeling" meeting="false" start="2026-12-01" duration="7" complete="0" expand="true">
+            <depend id="4" type="2" difference="0" hardness="Strong"/>
+            <depend id="12" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="18" uid="32a7a18e7f76489a9af007fae1c69e5f" name="Sprint 3 - Modélisation et analyses" meeting="false" start="2026-12-03" duration="7" complete="0" expand="true"/>
+        <task id="12" uid="cefd2f1240c24d13ae9fdd588bc35755" name="J4 — Modélisation terminée" meeting="true" start="2026-12-10" duration="0" complete="0" expand="true"/>
+        <task id="4" uid="997006288cf541f6bb9cca151c0e83f9" name="evaluation" meeting="false" start="2026-12-10" duration="4" complete="0" expand="true">
+            <depend id="5" type="2" difference="0" hardness="Strong"/>
+            <depend id="13" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="19" uid="c162d235c2d64be69b86034eb61c4cf8" name="Sprint 4 - Évaluation et tableau de bord Power BI" meeting="false" start="2026-12-14" duration="8" complete="0" expand="true"/>
+        <task id="13" uid="6ecbf5a0d6af497eac2357393168029f" name="J5 — Évaluation validée" meeting="true" start="2026-12-16" duration="0" complete="0" expand="true"/>
+        <task id="5" uid="5f7e79e0e20a4558a6b24faa929eaf60" name="Deployment" meeting="false" start="2026-12-16" duration="5" complete="0" expand="true">
+            <depend id="14" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="14" uid="d24e678680c74a1898d09c15116d4603" name="J6 — Tableau de bord livré" meeting="true" start="2026-12-23" duration="0" complete="0" expand="true"/>
+    </tasks>
+    <resources>
+        <resource id="0" name="Eya Ben Salah" function="1" contacts="" phone=""/>
+        <resource id="1" name="Emna Ben Boubaker " function="2" contacts="" phone=""/>
+        <resource id="2" name="Ryma Aouni" function="3" contacts="" phone=""/>
+        <resource id="3" name="Rimeh Laroussi" function="3" contacts="" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="1" resource-id="0" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="5" resource-id="0" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="0" resource-id="0" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="0" resource-id="1" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="2" resource-id="1" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="4" resource-id="1" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="1" resource-id="2" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="2" resource-id="2" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="3" resource-id="2" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="4" resource-id="2" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="3" resource-id="3" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="5" resource-id="3" function="3" responsible="true" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles>
+        <role id="1" name="product Owner"/>
+        <role id="2" name="Scrum Master"/>
+        <role id="3" name="Developer"/>
+    </roles>
+</project>
