@@ -1,82 +1,91 @@
-# L22 — Rétrospective du Sprint 1
+# L22 — Bilan de la rétrospective du Sprint 1
 
 **Projet :** Analyse des départs des salariés — BI RH  
-**Projet Jira :** RHBI  
-**Sprint :** S1 — Compréhension des données  
+**Sprint :** Sprint 1 — Compréhension des données  
 **Période :** 13 au 20 novembre 2026  
-**Statut :** Document préparatoire — à valider en équipe après le sprint
+**Statut :** Bilan préparatoire à valider en équipe
 
-## 1. Objectif de la rétrospective
+## 1. Objectif
 
-La rétrospective vise à analyser l'organisation et le déroulement du Sprint 1 afin d'identifier les bonnes pratiques à conserver et les améliorations à mettre en place pour le Sprint 2.
+La rétrospective permet d'analyser la manière dont l'équipe a travaillé pendant le Sprint 1.
 
-## 2. État d'avancement observé
+Elle vise à identifier les points positifs, les difficultés et les améliorations à mettre en place pour le Sprint 2.
 
-D'après le tableau Jira du 17 novembre 2026 :
+## 2. Points positifs à retenir
 
-- 4 User Stories sont planifiées.
-- 3 User Stories sont terminées.
-- 13 story points sur 18 sont terminés.
-- 5 story points restent à réaliser.
-- La tâche RHBI-4, consacrée à l'exploration Power BI, est encore à faire.
+Plusieurs éléments du travail réalisé constituent des points positifs à examiner collectivement :
 
-Ces informations constituent un état intermédiaire et non le bilan définitif du sprint.
+### Organisation du projet
 
-## 3. Points positifs à discuter
+L'utilisation de GanttProject a permis de préparer les principales phases et échéances du projet.
 
-Les éléments suivants pourront être examinés pendant la rétrospective :
+Jira a servi à organiser les User Stories et à visualiser l'avancement du Sprint 1.
 
-- La définition des questions métier et des KPI RH.
-- La documentation du jeu de données.
-- La réalisation du diagnostic de qualité.
-- L'utilisation de Jira pour suivre les User Stories.
-- La centralisation des livrables sur GitHub.
+### Compréhension des données
 
-L'équipe devra confirmer les pratiques qui ont réellement facilité son travail.
+L'exploration du dataset RH a permis de produire des statistiques descriptives et d'identifier plusieurs tendances liées à l'attrition.
 
-## 4. Difficultés et points d'amélioration à discuter
+Le diagnostic de qualité et le dictionnaire des données constituent une base utile pour la suite du projet.
 
-Plusieurs questions pourront être abordées :
+### Centralisation des livrables
 
-- Pourquoi la première exploration Power BI n'était-elle pas encore commencée dans Jira au 17 novembre ?
-- La répartition des tâches était-elle adaptée à la charge de travail ?
-- Les délais prévus étaient-ils réalistes ?
-- Les membres disposaient-ils des ressources nécessaires ?
-- Les statuts Jira étaient-ils mis à jour régulièrement ?
-- L'organisation des fichiers GitHub était-elle suffisamment claire ?
+GitHub permet de regrouper les documents, le planning, les analyses et les fichiers Power BI dans un même dépôt.
 
-Les réponses devront être apportées collectivement lors de la rétrospective.
+### Première réalisation Power BI
 
-## 5. Actions d'amélioration proposées
+Une première exploration visuelle des données RH a été préparée, avec des indicateurs et des graphiques liés aux besoins métier.
 
-| Action proposée | Objectif | Responsable à confirmer |
+## 3. Difficultés et points à améliorer
+
+Les points suivants ont été identifiés dans le suivi du projet et devront être discutés par l'équipe :
+
+### Organisation des fichiers GitHub
+
+Certains dossiers ont nécessité des corrections de nommage et de classement.
+
+Une convention de nommage commune permettrait de faciliter le partage des fichiers.
+
+### Cohérence des documents Jira
+
+Certains documents préparés au début du travail ont dû être actualisés pour correspondre au projet Jira RHBI et aux quatre User Stories retenues.
+
+### Traçabilité des contributions
+
+L'historique GitHub présente les commits enregistrés, mais les contributions individuelles de tous les membres doivent être rendues plus visibles.
+
+### Suivi des tâches Power BI
+
+La User Story consacrée à Power BI apparaissait encore comme « À faire » lors du suivi Jira du 17 novembre.
+
+Il est important de mettre à jour les tickets au fur et à mesure de l'avancement réel.
+
+## 4. Actions d'amélioration proposées pour le Sprint 2
+
+| Action | Objectif | Responsable proposé |
 |---|---|---|
-| Mettre à jour Jira régulièrement | Améliorer la visibilité sur l'avancement | Équipe Scrum |
-| Vérifier les critères de fin des tâches | Éviter les tâches considérées comme terminées sans livrable vérifiable | Product Owner et équipe |
-| Anticiper les travaux Power BI | Réduire le risque de retard sur les visualisations | Équipe de développement |
-| Organiser les livrables GitHub | Faciliter le partage et la vérification | Équipe projet |
-| Prévoir un point de suivi régulier | Identifier les blocages plus rapidement | Scrum Master et équipe |
+| Mettre à jour Jira régulièrement | Assurer un suivi fiable | Scrum Master et équipe |
+| Vérifier les noms des fichiers avant dépôt | Améliorer l'organisation GitHub | Tous les membres |
+| Clarifier les contributions individuelles | Renforcer la traçabilité | Tous les membres |
+| Vérifier les critères d'acceptation | Garantir la conformité des livrables | Product Owner |
+| Documenter les transformations Power Query | Faciliter le contrôle de la préparation des données | Developers |
+| Prévoir un point de suivi d'équipe | Identifier les difficultés rapidement | Scrum Master |
 
-Ces actions sont des propositions et devront être validées par les membres de l'équipe.
+Ces actions sont proposées et devront être confirmées collectivement.
 
-## 6. Bilan collectif à compléter après la réunion
+## 5. Décisions à valider en équipe
 
-**Date de la rétrospective :** À compléter
+Avant de finaliser la rétrospective, l'équipe devra confirmer :
 
-**Membres présents :** À compléter
+- Les principales difficultés réellement rencontrées.
+- Les pratiques à conserver.
+- Les actions d'amélioration retenues.
+- Les responsables de chaque action.
+- La manière de suivre ces actions pendant le Sprint 2.
 
-**Points positifs confirmés :** À compléter
+## 6. Conclusion
 
-**Difficultés réellement rencontrées :** À compléter
+Le Sprint 1 a permis de structurer le projet BI RH et de préparer les premières analyses des départs des salariés.
 
-**Décisions prises :** À compléter
+Les principaux axes d'amélioration concernent l'organisation des fichiers, la cohérence des documents Jira et la traçabilité du travail collectif.
 
-**Responsables des actions :** À compléter
-
-## 7. Conclusion provisoire
-
-Le suivi Jira montre que les travaux de cadrage et de compréhension des données sont bien avancés au 17 novembre 2026.
-
-La rétrospective permettra de comprendre les éventuelles difficultés rencontrées, de décider des améliorations prioritaires et de mieux organiser le Sprint 2.
-
-Ce document devra être finalisé après la rétrospective réelle du Sprint 1.
+La rétrospective finale permettra de valider les actions à appliquer pendant le Sprint 2 afin d'améliorer la coordination et l'efficacité de l'équipe.
